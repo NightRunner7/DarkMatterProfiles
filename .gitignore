@@ -13,3 +13,5 @@ Plots/
 # Ignore data files
 /Comparison-With-Literature/**/*.txt
 /Comparison-With-Literature/**/*.csv
+
+# Add sth else
