@@ -1,0 +1,15 @@
+# Ignore directories containg a trash
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore directories containg data
+data/
+
+# Ignore directories containg plots
+Plots/
+**/Results/
+
+# Ignore data files
+/Comparison-With-Literature/**/*.txt
+/Comparison-With-Literature/**/*.csv

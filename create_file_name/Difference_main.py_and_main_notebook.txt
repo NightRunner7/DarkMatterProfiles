@@ -1,0 +1,5 @@
+list_data_files_names = []
+
+for file in os.listdir(currentdir+'/'+data_dir):
+    if file.endswith(".txt"):
+        list_data_files_names.append(file[:-4]) # this is how to erase '.txt' in file names

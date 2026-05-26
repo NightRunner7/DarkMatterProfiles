@@ -1,0 +1,1281 @@
+numerical step, i: 0 ,steps in between: -{0}[[-2]]
+
+heat time step, \[Delta]T: 0.00248238 , average \[Delta]T: 0.00248238
+
+Solved for log10(t)=2.93606, Kn=173.975
+
+-------------------------------------------------------------------
+
+numerical step, i: 83272 ,steps in between: 83272
+
+heat time step, \[Delta]T: 0.0691456 , average \[Delta]T: 0.0000601874
+
+Solved for log10(t)=2.93858, Kn=173.414
+
+-------------------------------------------------------------------
+
+numerical step, i: 166877 ,steps in between: 83605
+
+heat time step, \[Delta]T: 0.0103779 , average \[Delta]T: 0.0000598927
+
+Solved for log10(t)=2.94106, Kn=172.868
+
+-------------------------------------------------------------------
+
+numerical step, i: 263147 ,steps in between: 96270
+
+heat time step, \[Delta]T: 0.0000108623 , average \[Delta]T: 0.0000571342
+
+Solved for log10(t)=2.94356, Kn=172.3
+
+-------------------------------------------------------------------
+
+numerical step, i: 343651 ,steps in between: 80504
+
+heat time step, \[Delta]T: 4.30821*10^-6 , average \[Delta]T: 0.0000585019
+
+Solved for log10(t)=2.94606, Kn=171.642
+
+-------------------------------------------------------------------
+
+numerical step, i: 445615 ,steps in between: 101964
+
+heat time step, \[Delta]T: 0.779919 , average \[Delta]T: 0.0000575181
+
+Solved for log10(t)=2.94877, Kn=170.938
+
+-------------------------------------------------------------------
+
+numerical step, i: 536002 ,steps in between: 90387
+
+heat time step, \[Delta]T: 0.0000239926 , average \[Delta]T: 0.0000565881
+
+Solved for log10(t)=2.95106, Kn=170.285
+
+-------------------------------------------------------------------
+
+numerical step, i: 626325 ,steps in between: 90323
+
+heat time step, \[Delta]T: 0.0193773 , average \[Delta]T: 0.000056668
+
+Solved for log10(t)=2.95357, Kn=169.58
+
+-------------------------------------------------------------------
+
+numerical step, i: 691863 ,steps in between: 65538
+
+heat time step, \[Delta]T: 0.0000195291 , average \[Delta]T: 0.0000587932
+
+Solved for log10(t)=2.95606, Kn=168.915
+
+-------------------------------------------------------------------
+
+numerical step, i: 763630 ,steps in between: 71767
+
+heat time step, \[Delta]T: 0.0162346 , average \[Delta]T: 0.0000601049
+
+Solved for log10(t)=2.95857, Kn=168.092
+
+-------------------------------------------------------------------
+
+numerical step, i: 863154 ,steps in between: 99524
+
+heat time step, \[Delta]T: 0.00186313 , average \[Delta]T: 0.0000592524
+
+Solved for log10(t)=2.96106, Kn=167.307
+
+-------------------------------------------------------------------
+
+numerical step, i: 940190 ,steps in between: 77036
+
+heat time step, \[Delta]T: 0.757571 , average \[Delta]T: 0.0000603777
+
+Solved for log10(t)=2.96373, Kn=166.48
+
+-------------------------------------------------------------------
+
+numerical step, i: 1040787 ,steps in between: 100597
+
+heat time step, \[Delta]T: 0.171468 , average \[Delta]T: 0.0000593211
+
+Solved for log10(t)=2.96607, Kn=165.698
+
+-------------------------------------------------------------------
+
+numerical step, i: 1112844 ,steps in between: 72057
+
+heat time step, \[Delta]T: 0.0438461 , average \[Delta]T: 0.0000602857
+
+Solved for log10(t)=2.96857, Kn=164.837
+
+-------------------------------------------------------------------
+
+numerical step, i: 1211205 ,steps in between: 98361
+
+heat time step, \[Delta]T: 0.249166 , average \[Delta]T: 0.000059823
+
+Solved for log10(t)=2.97107, Kn=163.953
+
+-------------------------------------------------------------------
+
+numerical step, i: 1305965 ,steps in between: 94760
+
+heat time step, \[Delta]T: 0.678615 , average \[Delta]T: 0.0000599179
+
+Solved for log10(t)=2.97375, Kn=162.975
+
+-------------------------------------------------------------------
+
+numerical step, i: 1376330 ,steps in between: 70365
+
+heat time step, \[Delta]T: 0.714228 , average \[Delta]T: 0.0000606291
+
+Solved for log10(t)=2.97614, Kn=162.08
+
+-------------------------------------------------------------------
+
+numerical step, i: 1471574 ,steps in between: 95244
+
+heat time step, \[Delta]T: 0.49708 , average \[Delta]T: 0.0000604063
+
+Solved for log10(t)=2.97864, Kn=161.121
+
+-------------------------------------------------------------------
+
+numerical step, i: 1576936 ,steps in between: 105362
+
+heat time step, \[Delta]T: 0.00247722 , average \[Delta]T: 0.0000597552
+
+Solved for log10(t)=2.98106, Kn=160.162
+
+-------------------------------------------------------------------
+
+numerical step, i: 1684834 ,steps in between: 107898
+
+heat time step, \[Delta]T: 0.0000138845 , average \[Delta]T: 0.0000592082
+
+Solved for log10(t)=2.98356, Kn=159.182
+
+-------------------------------------------------------------------
+
+numerical step, i: 1824011 ,steps in between: 139177
+
+heat time step, \[Delta]T: 0.00227647 , average \[Delta]T: 0.0000577392
+
+Solved for log10(t)=2.98606, Kn=158.08
+
+-------------------------------------------------------------------
+
+numerical step, i: 1957183 ,steps in between: 133172
+
+heat time step, \[Delta]T: 0.00585818 , average \[Delta]T: 0.0000566678
+
+Solved for log10(t)=2.98857, Kn=157.049
+
+-------------------------------------------------------------------
+
+numerical step, i: 2049746 ,steps in between: 92563
+
+heat time step, \[Delta]T: 5.01708*10^-6 , average \[Delta]T: 0.0000568502
+
+Solved for log10(t)=2.99106, Kn=155.979
+
+-------------------------------------------------------------------
+
+numerical step, i: 2185746 ,steps in between: 136000
+
+heat time step, \[Delta]T: 0.00597576 , average \[Delta]T: 0.0000559029
+
+Solved for log10(t)=2.99357, Kn=154.848
+
+-------------------------------------------------------------------
+
+numerical step, i: 2292949 ,steps in between: 107203
+
+heat time step, \[Delta]T: 0.0145351 , average \[Delta]T: 0.0000557676
+
+Solved for log10(t)=2.99606, Kn=153.711
+
+-------------------------------------------------------------------
+
+numerical step, i: 2415189 ,steps in between: 122240
+
+heat time step, \[Delta]T: 0.0192568 , average \[Delta]T: 0.0000553152
+
+Solved for log10(t)=2.99857, Kn=152.547
+
+-------------------------------------------------------------------
+
+numerical step, i: 2513522 ,steps in between: 98333
+
+heat time step, \[Delta]T: 0.60713 , average \[Delta]T: 0.000055502
+
+Solved for log10(t)=3.00113, Kn=151.326
+
+-------------------------------------------------------------------
+
+numerical step, i: 2648582 ,steps in between: 135060
+
+heat time step, \[Delta]T: 0.0733336 , average \[Delta]T: 0.0000547989
+
+Solved for log10(t)=3.00357, Kn=150.145
+
+-------------------------------------------------------------------
+
+numerical step, i: 2753418 ,steps in between: 104836
+
+heat time step, \[Delta]T: 0.610958 , average \[Delta]T: 0.0000549039
+
+Solved for log10(t)=3.00616, Kn=148.86
+
+-------------------------------------------------------------------
+
+numerical step, i: 2852372 ,steps in between: 98954
+
+heat time step, \[Delta]T: 5.33683*10^-6 , average \[Delta]T: 0.000054975
+
+Solved for log10(t)=3.00856, Kn=147.631
+
+-------------------------------------------------------------------
+
+numerical step, i: 2969397 ,steps in between: 117025
+
+heat time step, \[Delta]T: 0.000046385 , average \[Delta]T: 0.0000547913
+
+Solved for log10(t)=3.01106, Kn=146.326
+
+-------------------------------------------------------------------
+
+numerical step, i: 3059610 ,steps in between: 90213
+
+heat time step, \[Delta]T: 0.0000146842 , average \[Delta]T: 0.0000551113
+
+Solved for log10(t)=3.01356, Kn=145.071
+
+-------------------------------------------------------------------
+
+numerical step, i: 3142828 ,steps in between: 83218
+
+heat time step, \[Delta]T: 0.0000701092 , average \[Delta]T: 0.0000555472
+
+Solved for log10(t)=3.01606, Kn=143.673
+
+-------------------------------------------------------------------
+
+numerical step, i: 3245185 ,steps in between: 102357
+
+heat time step, \[Delta]T: 0.507193 , average \[Delta]T: 0.0000557618
+
+Solved for log10(t)=3.01873, Kn=142.247
+
+-------------------------------------------------------------------
+
+numerical step, i: 3372415 ,steps in between: 127230
+
+heat time step, \[Delta]T: 0.379501 , average \[Delta]T: 0.0000553579
+
+Solved for log10(t)=3.0211, Kn=140.923
+
+-------------------------------------------------------------------
+
+numerical step, i: 3491741 ,steps in between: 119326
+
+heat time step, \[Delta]T: 0.582101 , average \[Delta]T: 0.0000553188
+
+Solved for log10(t)=3.02377, Kn=139.41
+
+-------------------------------------------------------------------
+
+numerical step, i: 3631372 ,steps in between: 139631
+
+heat time step, \[Delta]T: 0.0000368865 , average \[Delta]T: 0.0000547303
+
+Solved for log10(t)=3.02606, Kn=138.061
+
+-------------------------------------------------------------------
+
+numerical step, i: 3748607 ,steps in between: 117235
+
+heat time step, \[Delta]T: 0.00841483 , average \[Delta]T: 0.000054656
+
+Solved for log10(t)=3.02857, Kn=136.618
+
+-------------------------------------------------------------------
+
+numerical step, i: 3901981 ,steps in between: 153374
+
+heat time step, \[Delta]T: 7.8051*10^-6 , average \[Delta]T: 0.0000540858
+
+Solved for log10(t)=3.03106, Kn=135.106
+
+-------------------------------------------------------------------
+
+numerical step, i: 4049859 ,steps in between: 147878
+
+heat time step, \[Delta]T: 0.108219 , average \[Delta]T: 0.0000536589
+
+Solved for log10(t)=3.03359, Kn=133.586
+
+-------------------------------------------------------------------
+
+numerical step, i: 4197533 ,steps in between: 147674
+
+heat time step, \[Delta]T: 0.00151774 , average \[Delta]T: 0.0000532411
+
+Solved for log10(t)=3.03606, Kn=132.054
+
+-------------------------------------------------------------------
+
+numerical step, i: 4368748 ,steps in between: 171215
+
+heat time step, \[Delta]T: 0.390123 , average \[Delta]T: 0.0000526615
+
+Solved for log10(t)=3.03869, Kn=130.399
+
+-------------------------------------------------------------------
+
+numerical step, i: 4591697 ,steps in between: 222949
+
+heat time step, \[Delta]T: 0.0103793 , average \[Delta]T: 0.0000514126
+
+Solved for log10(t)=3.04107, Kn=128.849
+
+-------------------------------------------------------------------
+
+numerical step, i: 4783838 ,steps in between: 192141
+
+heat time step, \[Delta]T: 0.0000256221 , average \[Delta]T: 0.0000506721
+
+Solved for log10(t)=3.04356, Kn=127.271
+
+-------------------------------------------------------------------
+
+numerical step, i: 4983342 ,steps in between: 199504
+
+heat time step, \[Delta]T: 9.72562*10^-6 , average \[Delta]T: 0.0000499242
+
+Solved for log10(t)=3.04606, Kn=125.559
+
+-------------------------------------------------------------------
+
+numerical step, i: 5154141 ,steps in between: 170799
+
+heat time step, \[Delta]T: 0.189092 , average \[Delta]T: 0.0000495238
+
+Solved for log10(t)=3.04858, Kn=123.876
+
+-------------------------------------------------------------------
+
+numerical step, i: 5387057 ,steps in between: 232916
+
+heat time step, \[Delta]T: 0.00381292 , average \[Delta]T: 0.0000485731
+
+Solved for log10(t)=3.05106, Kn=122.142
+
+-------------------------------------------------------------------
+
+numerical step, i: 5571580 ,steps in between: 184523
+
+heat time step, \[Delta]T: 0.00310972 , average \[Delta]T: 0.0000481301
+
+Solved for log10(t)=3.05356, Kn=120.413
+
+-------------------------------------------------------------------
+
+numerical step, i: 5786862 ,steps in between: 215282
+
+heat time step, \[Delta]T: 0.000626445 , average \[Delta]T: 0.0000474677
+
+Solved for log10(t)=3.05606, Kn=118.605
+
+-------------------------------------------------------------------
+
+numerical step, i: 6025616 ,steps in between: 238754
+
+heat time step, \[Delta]T: 0.0000175117 , average \[Delta]T: 0.000046677
+
+Solved for log10(t)=3.05856, Kn=116.791
+
+-------------------------------------------------------------------
+
+numerical step, i: 6257775 ,steps in between: 232159
+
+heat time step, \[Delta]T: 0.369518 , average \[Delta]T: 0.0000460504
+
+Solved for log10(t)=3.06118, Kn=114.875
+
+-------------------------------------------------------------------
+
+numerical step, i: 6487332 ,steps in between: 229557
+
+heat time step, \[Delta]T: 0.0014196 , average \[Delta]T: 0.0000453977
+
+Solved for log10(t)=3.06356, Kn=113.077
+
+-------------------------------------------------------------------
+
+numerical step, i: 6741868 ,steps in between: 254536
+
+heat time step, \[Delta]T: 0.362664 , average \[Delta]T: 0.000044717
+
+Solved for log10(t)=3.06617, Kn=111.075
+
+-------------------------------------------------------------------
+
+numerical step, i: 7000659 ,steps in between: 258791
+
+heat time step, \[Delta]T: 0.00099643 , average \[Delta]T: 0.0000439835
+
+Solved for log10(t)=3.06856, Kn=109.178
+
+-------------------------------------------------------------------
+
+numerical step, i: 7290389 ,steps in between: 289730
+
+heat time step, \[Delta]T: 0.00721028 , average \[Delta]T: 0.000043163
+
+Solved for log10(t)=3.07106, Kn=107.204
+
+-------------------------------------------------------------------
+
+numerical step, i: 7554321 ,steps in between: 263932
+
+heat time step, \[Delta]T: 0.119376 , average \[Delta]T: 0.0000425605
+
+Solved for log10(t)=3.07358, Kn=105.157
+
+-------------------------------------------------------------------
+
+numerical step, i: 7847715 ,steps in between: 293394
+
+heat time step, \[Delta]T: 0.00382717 , average \[Delta]T: 0.0000418358
+
+Solved for log10(t)=3.07606, Kn=103.073
+
+-------------------------------------------------------------------
+
+numerical step, i: 8168087 ,steps in between: 320372
+
+heat time step, \[Delta]T: 2.21609*10^-6 , average \[Delta]T: 0.0000410365
+
+Solved for log10(t)=3.07856, Kn=100.969
+
+-------------------------------------------------------------------
+
+numerical step, i: 8490718 ,steps in between: 322631
+
+heat time step, \[Delta]T: 0.000173759 , average \[Delta]T: 0.0000402919
+
+Solved for log10(t)=3.08106, Kn=98.7879
+
+-------------------------------------------------------------------
+
+numerical step, i: 8772356 ,steps in between: 281638
+
+heat time step, \[Delta]T: 0.317749 , average \[Delta]T: 0.0000397968
+
+Solved for log10(t)=3.08358, Kn=96.5803
+
+-------------------------------------------------------------------
+
+numerical step, i: 9085218 ,steps in between: 312862
+
+heat time step, \[Delta]T: 0.128278 , average \[Delta]T: 0.0000391978
+
+Solved for log10(t)=3.08608, Kn=94.3136
+
+-------------------------------------------------------------------
+
+numerical step, i: 9395481 ,steps in between: 310263
+
+heat time step, \[Delta]T: 0.170742 , average \[Delta]T: 0.0000386642
+
+Solved for log10(t)=3.08862, Kn=91.9607
+
+-------------------------------------------------------------------
+
+numerical step, i: 9720801 ,steps in between: 325320
+
+heat time step, \[Delta]T: 0.179007 , average \[Delta]T: 0.0000380989
+
+Solved for log10(t)=3.09112, Kn=89.586
+
+-------------------------------------------------------------------
+
+numerical step, i: 10061303 ,steps in between: 340502
+
+heat time step, \[Delta]T: 0.0000157256 , average \[Delta]T: 0.0000375001
+
+Solved for log10(t)=3.09356, Kn=87.2324
+
+-------------------------------------------------------------------
+
+numerical step, i: 10392515 ,steps in between: 331212
+
+heat time step, \[Delta]T: 0.00626052 , average \[Delta]T: 0.0000369944
+
+Solved for log10(t)=3.09606, Kn=84.7013
+
+-------------------------------------------------------------------
+
+numerical step, i: 10712984 ,steps in between: 320469
+
+heat time step, \[Delta]T: 0.000173019 , average \[Delta]T: 0.0000365597
+
+Solved for log10(t)=3.09856, Kn=82.1514
+
+-------------------------------------------------------------------
+
+numerical step, i: 11097619 ,steps in between: 384635
+
+heat time step, \[Delta]T: 0.0138499 , average \[Delta]T: 0.0000359454
+
+Solved for log10(t)=3.10106, Kn=79.5051
+
+-------------------------------------------------------------------
+
+numerical step, i: 11478915 ,steps in between: 381296
+
+heat time step, \[Delta]T: 0.00990115 , average \[Delta]T: 0.0000353864
+
+Solved for log10(t)=3.10357, Kn=76.7915
+
+-------------------------------------------------------------------
+
+numerical step, i: 11871495 ,steps in between: 392580
+
+heat time step, \[Delta]T: 0.00790141 , average \[Delta]T: 0.0000348335
+
+Solved for log10(t)=3.10607, Kn=73.9745
+
+-------------------------------------------------------------------
+
+numerical step, i: 12196290 ,steps in between: 324795
+
+heat time step, \[Delta]T: 0.130317 , average \[Delta]T: 0.0000345117
+
+Solved for log10(t)=3.10857, Kn=71.0733
+
+-------------------------------------------------------------------
+
+numerical step, i: 12538997 ,steps in between: 342707
+
+heat time step, \[Delta]T: 0.02087 , average \[Delta]T: 0.0000341577
+
+Solved for log10(t)=3.11106, Kn=68.0734
+
+-------------------------------------------------------------------
+
+numerical step, i: 12918679 ,steps in between: 379682
+
+heat time step, \[Delta]T: 6.52328*10^-6 , average \[Delta]T: 0.0000337309
+
+Solved for log10(t)=3.11356, Kn=64.9572
+
+-------------------------------------------------------------------
+
+numerical step, i: 13397497 ,steps in between: 478818
+
+heat time step, \[Delta]T: 0.000123882 , average \[Delta]T: 0.0000330851
+
+Solved for log10(t)=3.11606, Kn=61.6763
+
+-------------------------------------------------------------------
+
+numerical step, i: 13960162 ,steps in between: 562665
+
+heat time step, \[Delta]T: 5.0797*10^-6 , average \[Delta]T: 0.0000322918
+
+Solved for log10(t)=3.11856, Kn=58.2452
+
+-------------------------------------------------------------------
+
+numerical step, i: 14543468 ,steps in between: 583306
+
+heat time step, \[Delta]T: 0.000377561 , average \[Delta]T: 0.0000315182
+
+Solved for log10(t)=3.12106, Kn=54.6453
+
+-------------------------------------------------------------------
+
+numerical step, i: 15213811 ,steps in between: 670343
+
+heat time step, \[Delta]T: 0.0090066 , average \[Delta]T: 0.0000306314
+
+Solved for log10(t)=3.12357, Kn=50.8327
+
+-------------------------------------------------------------------
+
+numerical step, i: 15852035 ,steps in between: 638224
+
+heat time step, \[Delta]T: 0.00197812 , average \[Delta]T: 0.0000298818
+
+Solved for log10(t)=3.12606, Kn=46.7544
+
+-------------------------------------------------------------------
+
+numerical step, i: 16531244 ,steps in between: 679209
+
+heat time step, \[Delta]T: 0.0149689 , average \[Delta]T: 0.0000291213
+
+Solved for log10(t)=3.12857, Kn=42.3564
+
+-------------------------------------------------------------------
+
+numerical step, i: 17303810 ,steps in between: 772566
+
+heat time step, \[Delta]T: 0.00141655 , average \[Delta]T: 0.0000282693
+
+Solved for log10(t)=3.13106, Kn=37.523
+
+-------------------------------------------------------------------
+
+numerical step, i: 18565237 ,steps in between: 1261427
+
+heat time step, \[Delta]T: 0.000125896 , average \[Delta]T: 0.000026769
+
+Solved for log10(t)=3.13356, Kn=32.0912
+
+-------------------------------------------------------------------
+
+numerical step, i: 20653550 ,steps in between: 2088313
+
+heat time step, \[Delta]T: 1.55911*10^-6 , average \[Delta]T: 0.0000244425
+
+Solved for log10(t)=3.13606, Kn=25.7327
+
+-------------------------------------------------------------------
+
+numerical step, i: 24321659 ,steps in between: 3668109
+
+heat time step, \[Delta]T: 0.000144851 , average \[Delta]T: 0.0000210808
+
+Solved for log10(t)=3.13856, Kn=17.5292
+
+-------------------------------------------------------------------
+
+numerical step, i: 37859955 ,steps in between: 13538296
+
+heat time step, \[Delta]T: 0.0000641455 , average \[Delta]T: 0.0000137524
+
+Solved for log10(t)=3.14106, Kn=          -12
+9.19992 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38116386 ,steps in between: 256431
+
+heat time step, \[Delta]T: 0.00101665 , average \[Delta]T: 0.0000138694
+
+Solved for log10(t)=3.14356, Kn=         -19
+1.2163 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38133008 ,steps in between: 16622
+
+heat time step, \[Delta]T: 0.000196489 , average \[Delta]T: 0.0000140741
+
+Solved for log10(t)=3.14606, Kn=          -20
+2.88999 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38148867 ,steps in between: 15859
+
+heat time step, \[Delta]T: 0.00111514 , average \[Delta]T: 0.0000142801
+
+Solved for log10(t)=3.14856, Kn=          -20
+1.50316 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38161321 ,steps in between: 12454
+
+heat time step, \[Delta]T: 0.0014113 , average \[Delta]T: 0.0000144884
+
+Solved for log10(t)=3.15106, Kn=          -21
+9.87563 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38172858 ,steps in between: 11537
+
+heat time step, \[Delta]T: 0.00018032 , average \[Delta]T: 0.0000146982
+
+Solved for log10(t)=3.15356, Kn=          -21
+7.25592 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38183650 ,steps in between: 10792
+
+heat time step, \[Delta]T: 0.000214248 , average \[Delta]T: 0.0000149093
+
+Solved for log10(t)=3.15606, Kn=          -21
+5.69028 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38193827 ,steps in between: 10177
+
+heat time step, \[Delta]T: 0.0020632 , average \[Delta]T: 0.0000151219
+
+Solved for log10(t)=3.15856, Kn=          -21
+4.65669 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38203398 ,steps in between: 9571
+
+heat time step, \[Delta]T: 0.00218268 , average \[Delta]T: 0.0000153358
+
+Solved for log10(t)=3.16106, Kn=          -21
+3.92682 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38212428 ,steps in between: 9030
+
+heat time step, \[Delta]T: 0.00299361 , average \[Delta]T: 0.0000155511
+
+Solved for log10(t)=3.16356, Kn=          -21
+3.38557 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38221125 ,steps in between: 8697
+
+heat time step, \[Delta]T: 0.00237563 , average \[Delta]T: 0.0000157677
+
+Solved for log10(t)=3.16606, Kn=          -21
+2.96931 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38229422 ,steps in between: 8297
+
+heat time step, \[Delta]T: 0.00703531 , average \[Delta]T: 0.0000159856
+
+Solved for log10(t)=3.16856, Kn=          -21
+2.63976 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38237386 ,steps in between: 7964
+
+heat time step, \[Delta]T: 0.00208993 , average \[Delta]T: 0.0000162049
+
+Solved for log10(t)=3.17106, Kn=          -21
+2.37266 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38245216 ,steps in between: 7830
+
+heat time step, \[Delta]T: 0.0073806 , average \[Delta]T: 0.0000164255
+
+Solved for log10(t)=3.17357, Kn=          -21
+2.15198 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38252737 ,steps in between: 7521
+
+heat time step, \[Delta]T: 0.00886073 , average \[Delta]T: 0.0000166472
+
+Solved for log10(t)=3.17606, Kn=        -21
+1.967 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38260261 ,steps in between: 7524
+
+heat time step, \[Delta]T: 0.000871934 , average \[Delta]T: 0.0000168702
+
+Solved for log10(t)=3.17856, Kn=          -21
+1.80963 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38267659 ,steps in between: 7398
+
+heat time step, \[Delta]T: 0.0038031 , average \[Delta]T: 0.0000170946
+
+Solved for log10(t)=3.18106, Kn=          -21
+1.67418 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38274572 ,steps in between: 6913
+
+heat time step, \[Delta]T: 0.000268826 , average \[Delta]T: 0.0000173203
+
+Solved for log10(t)=3.18356, Kn=          -21
+1.55653 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38281339 ,steps in between: 6767
+
+heat time step, \[Delta]T: 0.00196349 , average \[Delta]T: 0.0000175474
+
+Solved for log10(t)=3.18606, Kn=          -21
+1.45335 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38288009 ,steps in between: 6670
+
+heat time step, \[Delta]T: 0.00133582 , average \[Delta]T: 0.0000177758
+
+Solved for log10(t)=3.18856, Kn=          -21
+1.36219 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38294385 ,steps in between: 6376
+
+heat time step, \[Delta]T: 0.009868 , average \[Delta]T: 0.0000180055
+
+Solved for log10(t)=3.19106, Kn=          -21
+1.28109 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38300848 ,steps in between: 6463
+
+heat time step, \[Delta]T: 0.0139097 , average \[Delta]T: 0.0000182368
+
+Solved for log10(t)=3.19357, Kn=          -21
+1.20841 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38307065 ,steps in between: 6217
+
+heat time step, \[Delta]T: 0.000494473 , average \[Delta]T: 0.0000184689
+
+Solved for log10(t)=3.19606, Kn=          -21
+1.14315 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38313408 ,steps in between: 6343
+
+heat time step, \[Delta]T: 0.00512106 , average \[Delta]T: 0.0000187026
+
+Solved for log10(t)=3.19856, Kn=          -21
+1.08401 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38319615 ,steps in between: 6207
+
+heat time step, \[Delta]T: 0.0137623 , average \[Delta]T: 0.0000189376
+
+Solved for log10(t)=3.20107, Kn=          -21
+1.03027 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38325556 ,steps in between: 5941
+
+heat time step, \[Delta]T: 0.017987 , average \[Delta]T: 0.0000191739
+
+Solved for log10(t)=3.20356, Kn=          -22
+9.81241 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38331383 ,steps in between: 5827
+
+heat time step, \[Delta]T: 0.00352875 , average \[Delta]T: 0.0000194116
+
+Solved for log10(t)=3.20606, Kn=          -22
+9.36336 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38337192 ,steps in between: 5809
+
+heat time step, \[Delta]T: 0.0188561 , average \[Delta]T: 0.0000196511
+
+Solved for log10(t)=3.20857, Kn=          -22
+8.94971 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38343427 ,steps in between: 6235
+
+heat time step, \[Delta]T: 0.00528536 , average \[Delta]T: 0.0000198908
+
+Solved for log10(t)=3.21106, Kn=          -22
+8.56948 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38349140 ,steps in between: 5713
+
+heat time step, \[Delta]T: 0.00107328 , average \[Delta]T: 0.0000201326
+
+Solved for log10(t)=3.21356, Kn=          -22
+8.21711 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38354796 ,steps in between: 5656
+
+heat time step, \[Delta]T: 0.00561164 , average \[Delta]T: 0.0000203758
+
+Solved for log10(t)=3.21606, Kn=          -22
+7.89014 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38360860 ,steps in between: 6064
+
+heat time step, \[Delta]T: 0.0043573 , average \[Delta]T: 0.0000206201
+
+Solved for log10(t)=3.21856, Kn=          -22
+7.58597 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38367588 ,steps in between: 6728
+
+heat time step, \[Delta]T: 0.000751097 , average \[Delta]T: 0.0000208653
+
+Solved for log10(t)=3.22106, Kn=         -22
+7.3025 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38375065 ,steps in between: 7477
+
+heat time step, \[Delta]T: 0.00154168 , average \[Delta]T: 0.0000211115
+
+Solved for log10(t)=3.22356, Kn=          -22
+7.03754 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38383683 ,steps in between: 8618
+
+heat time step, \[Delta]T: 0.0136118 , average \[Delta]T: 0.0000213586
+
+Solved for log10(t)=3.22606, Kn=          -22
+6.78929 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38393494 ,steps in between: 9811
+
+heat time step, \[Delta]T: 0.00140819 , average \[Delta]T: 0.000021606
+
+Solved for log10(t)=3.22856, Kn=          -22
+6.55656 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38403160 ,steps in between: 9666
+
+heat time step, \[Delta]T: 0.00173752 , average \[Delta]T: 0.0000218551
+
+Solved for log10(t)=3.23106, Kn=          -22
+6.33762 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38413424 ,steps in between: 10264
+
+heat time step, \[Delta]T: 0.000944957 , average \[Delta]T: 0.0000221051
+
+Solved for log10(t)=3.23356, Kn=          -22
+6.13148 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38424184 ,steps in between: 10760
+
+heat time step, \[Delta]T: 0.00136198 , average \[Delta]T: 0.0000223562
+
+Solved for log10(t)=3.23606, Kn=          -22
+5.93697 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38435680 ,steps in between: 11496
+
+heat time step, \[Delta]T: 0.00239698 , average \[Delta]T: 0.0000226081
+
+Solved for log10(t)=3.23856, Kn=          -22
+5.75321 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38445980 ,steps in between: 10300
+
+heat time step, \[Delta]T: 0.00123947 , average \[Delta]T: 0.0000228621
+
+Solved for log10(t)=3.24106, Kn=          -22
+5.57932 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38456324 ,steps in between: 10344
+
+heat time step, \[Delta]T: 0.000777399 , average \[Delta]T: 0.0000231175
+
+Solved for log10(t)=3.24356, Kn=          -22
+5.41454 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38465721 ,steps in between: 9397
+
+heat time step, \[Delta]T: 0.00847115 , average \[Delta]T: 0.0000233749
+
+Solved for log10(t)=3.24606, Kn=          -22
+5.25809 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38475124 ,steps in between: 9403
+
+heat time step, \[Delta]T: 0.00394061 , average \[Delta]T: 0.0000236336
+
+Solved for log10(t)=3.24856, Kn=          -22
+5.10955 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38483411 ,steps in between: 8287
+
+heat time step, \[Delta]T: 0.00150583 , average \[Delta]T: 0.0000238943
+
+Solved for log10(t)=3.25106, Kn=          -22
+4.96824 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38489746 ,steps in between: 6335
+
+heat time step, \[Delta]T: 0.00240245 , average \[Delta]T: 0.0000241578
+
+Solved for log10(t)=3.25356, Kn=          -22
+4.83363 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38494632 ,steps in between: 4886
+
+heat time step, \[Delta]T: 0.00667829 , average \[Delta]T: 0.0000244237
+
+Solved for log10(t)=3.25606, Kn=          -22
+4.70523 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38499485 ,steps in between: 4853
+
+heat time step, \[Delta]T: 0.0477453 , average \[Delta]T: 0.0000246914
+
+Solved for log10(t)=3.25857, Kn=          -22
+4.58254 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38503465 ,steps in between: 3980
+
+heat time step, \[Delta]T: 0.106068 , average \[Delta]T: 0.0000249613
+
+Solved for log10(t)=3.26107, Kn=          -22
+4.46524 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38508001 ,steps in between: 4536
+
+heat time step, \[Delta]T: 1.22938 , average \[Delta]T: 0.0000252532
+
+Solved for log10(t)=3.26377, Kn=         -22
+4.3447 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38511444 ,steps in between: 3443
+
+heat time step, \[Delta]T: 0.0847252 , average \[Delta]T: 0.0000255041
+
+Solved for log10(t)=3.26607, Kn=          -22
+4.24631 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38516009 ,steps in between: 4565
+
+heat time step, \[Delta]T: 0.473955 , average \[Delta]T: 0.0000257814
+
+Solved for log10(t)=3.2686, Kn=          -22
+4.14227 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38520709 ,steps in between: 4700
+
+heat time step, \[Delta]T: 0.0787677 , average \[Delta]T: 0.000026053
+
+Solved for log10(t)=3.27107, Kn=          -22
+4.04506 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38524956 ,steps in between: 4247
+
+heat time step, \[Delta]T: 1.31144 , average \[Delta]T: 0.0000263522
+
+Solved for log10(t)=3.27377, Kn=          -22
+3.94313 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38528606 ,steps in between: 3650
+
+heat time step, \[Delta]T: 0.092374 , average \[Delta]T: 0.0000266099
+
+Solved for log10(t)=3.27608, Kn=          -22
+3.85943 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38532100 ,steps in between: 3494
+
+heat time step, \[Delta]T: 0.0356133 , average \[Delta]T: 0.0000268891
+
+Solved for log10(t)=3.27857, Kn=         -22
+3.7726 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38537281 ,steps in between: 5181
+
+heat time step, \[Delta]T: 0.017043 , average \[Delta]T: 0.0000271696
+
+Solved for log10(t)=3.28107, Kn=          -22
+3.68882 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38542667 ,steps in between: 5386
+
+heat time step, \[Delta]T: 1.37549 , average \[Delta]T: 0.0000274536
+
+Solved for log10(t)=3.28358, Kn=          -22
+3.60755 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38548254 ,steps in between: 5587
+
+heat time step, \[Delta]T: 0.000458272 , average \[Delta]T: 0.0000277353
+
+Solved for log10(t)=3.28606, Kn=          -22
+3.53041 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38556779 ,steps in between: 8525
+
+heat time step, \[Delta]T: 0.000624114 , average \[Delta]T: 0.0000280185
+
+Solved for log10(t)=3.28856, Kn=          -22
+3.45546 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38565847 ,steps in between: 9068
+
+heat time step, \[Delta]T: 0.0507544 , average \[Delta]T: 0.0000283033
+
+Solved for log10(t)=3.29107, Kn=          -22
+3.38305 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38574505 ,steps in between: 8658
+
+heat time step, \[Delta]T: 0.0249558 , average \[Delta]T: 0.0000285894
+
+Solved for log10(t)=3.29357, Kn=          -22
+3.31332 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38580621 ,steps in between: 6116
+
+heat time step, \[Delta]T: 0.0571575 , average \[Delta]T: 0.0000288788
+
+Solved for log10(t)=3.29607, Kn=          -22
+3.24599 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38588893 ,steps in between: 8272
+
+heat time step, \[Delta]T: 0.0104707 , average \[Delta]T: 0.0000291683
+
+Solved for log10(t)=3.29856, Kn=          -22
+3.18094 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38598758 ,steps in between: 9865
+
+heat time step, \[Delta]T: 0.0329349 , average \[Delta]T: 0.0000294589
+
+Solved for log10(t)=3.30107, Kn=         -22
+3.1179 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38606867 ,steps in between: 8109
+
+heat time step, \[Delta]T: 0.00104246 , average \[Delta]T: 0.0000297511
+
+Solved for log10(t)=3.30356, Kn=          -22
+3.05719 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38613281 ,steps in between: 6414
+
+heat time step, \[Delta]T: 0.667153 , average \[Delta]T: 0.0000300622
+
+Solved for log10(t)=3.30619, Kn=          -22
+2.99534 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38621140 ,steps in between: 7859
+
+heat time step, \[Delta]T: 0.0341762 , average \[Delta]T: 0.0000303436
+
+Solved for log10(t)=3.30857, Kn=          -22
+2.94118 10
+
+-------------------------------------------------------------------
+
+numerical step, i: 38629401 ,steps in between: 8261
+
+heat time step, \[Delta]T: 0.047482 , average \[Delta]T: 0.0000306417
+
+Solved for log10(t)=3.31107, Kn=          -22
+2.88587 10
+
+Solved for t=3.31199, Kn=          -22
+2.86605 10
+
+Exporting data...
+
+Data export complete!
