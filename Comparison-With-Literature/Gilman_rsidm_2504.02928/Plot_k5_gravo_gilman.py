@@ -15,9 +15,9 @@ output_plot_dir = "Results"
 
 OUR_DIR = os.path.dirname(os.path.abspath(__file__))
 
-DATA_cSIDM = os.path.join(OUR_DIR, 'Data_cSIDM', "Gilman_benchmark_2")
+DATA_cSIDM = os.path.join(OUR_DIR, 'Data', 'cSIDM', "Gilman_benchmark_3")
 # DATA_rSIDM = os.path.join(OUR_DIR, 'Data_rSIDM')
-DATA_rSIDM = os.path.join(OUR_DIR, 'Data_rSIDM', "Gilman_benchmark_2")
+DATA_rSIDM = os.path.join(OUR_DIR, 'Data', 'rSIDM', "Gilman_benchmark_3")
 
 # --- select files: cSIDM
 SIDM_file_gilman  = "CSIDM_Gilman_M7.0_c21.21_sigma24.95_beta0.85.csv"
@@ -26,17 +26,35 @@ SIDM_file_2  = "CSIDM_Gilman_M7.5_c19.81_sigma46.855_beta0.85.csv"
 SIDM_file_3  = "CSIDM_Gilman_M8.0_c18.42_sigma28.378_beta0.85.csv"
 SIDM_file_4  = "CSIDM_Gilman_M8.5_c17.05_sigma14.986_beta0.85.csv"
 SIDM_file_5  = "CSIDM_Gilman_M9.0_c15.69_sigma9.19_beta0.85.csv"
+# --- select files: cSIDM
+# BENCHMARK: GILMAN (EXTRAPOLATION)
+SIDM_file1_extra = "CSIDM_Gilman_M6.0_c23.96_sigma10.713_beta0.85.csv"
+SIDM_file2_extra = "CSIDM_Gilman_M6.2_c23.4_sigma10.899_beta0.85.csv"
+SIDM_file3_extra = "CSIDM_Gilman_M6.4_c22.85_sigma11.512_beta0.85.csv"
+SIDM_file4_extra = "CSIDM_Gilman_M6.6_c22.3_sigma13.645_beta0.85.csv"
+SIDM_file5_extra = "CSIDM_Gilman_M6.8_c21.75_sigma19.634_beta0.85.csv"
+
 
 SIDM_file_arr = [SIDM_file_1, SIDM_file_2, SIDM_file_3, SIDM_file_4, SIDM_file_5]
+# SIDM_file_arr = [SIDM_file1_extra, SIDM_file2_extra, SIDM_file3_extra, SIDM_file4_extra, SIDM_file5_extra]
 
 # --- select files: rSIDM
-RSIDM_file_1  = "RSIDM_Gilman_M7.0_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+RSIDM_file_1  = "RSIDM_Gilman_M7.0_c30.638_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
 RSIDM_file_2  = "RSIDM_Gilman_M7.5_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
 RSIDM_file_3  = "RSIDM_Gilman_M8.0_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
 RSIDM_file_4  = "RSIDM_Gilman_M8.5_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
 RSIDM_file_5  = "RSIDM_Gilman_M9.0_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+# --- select files: rSIDM
+# BENCHMARK: GILMAN (EXTRAPOLATION)
+RSIDM_file1_extra = "RSIDM_Gilman_M6.0_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+RSIDM_file2_extra = "RSIDM_Gilman_M6.2_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+RSIDM_file3_extra = "RSIDM_Gilman_M6.4_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+RSIDM_file4_extra = "RSIDM_Gilman_M6.6_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+RSIDM_file5_extra = "RSIDM_Gilman_M6.8_beta0.85_RadiiPerDec100_Ndec4.0_deltaT-4.0.csv"
+
 
 RSIDM_file_arr = [RSIDM_file_1, RSIDM_file_2, RSIDM_file_3, RSIDM_file_4, RSIDM_file_5]
+# RSIDM_file_arr = [RSIDM_file1_extra, RSIDM_file2_extra, RSIDM_file3_extra, RSIDM_file4_extra, RSIDM_file5_extra]
 
 # --- choose of file
 select_file = 0
@@ -49,11 +67,16 @@ RSIDM_file = RSIDM_file_arr[select_file]
 
 # --- select parameters values
 # sigma_m_arr = [35.1, 45.8, 27.1, 14.7, 9.15]
-sigma_m_arr = [30.545, 46.855, 28.378, 14.986, 9.19]
+sigma_m_arr = [29.279, 47.128, 29.19, 15.334, 9.3691]
+# sigma_m_arr = [30.545, 46.855, 28.378, 14.986, 9.19]
+# sigma_m_arr = [10.713, 10.899, 11.512, 13.645, 19.634]
 sigma_m=sigma_m_arr[select_file]
 
 M_power_arr = [7.0, 7.5, 8.0, 8.5, 9.0]
+# M_power_arr = [6.0, 6.2, 6.4, 6.6, 6.8]
 M_power = M_power_arr[select_file]
+
+
 # ##################################### SET DATA TO CLASS ############################################################ #
 # --- SIDM
 gravoEvolution_SIDM = gravoF.create_gravothermalData_from_file(SIDM_file, DATA_cSIDM, beta=0.75)

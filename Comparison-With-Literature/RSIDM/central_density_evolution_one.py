@@ -636,7 +636,7 @@ ax.set_ylabel(r'$\hat{\rho}_c \equiv \rho_c/\rho_s$', fontsize=18)
 ax.set_title(r'Core-density evolution: sensitivity to central-bin definition', fontsize=17)
 
 ax.tick_params(labelsize=13)
-apply_scale_grid(ax, xscale="log", yscale="log")
+apply_scale_grid(ax, xscale="linear", yscale="log")
 
 # --- cSIDM ---
 t_csidm, rho_csidm = gravoEvolution_SIDM.return_rho_core_evolution(elements=elements)

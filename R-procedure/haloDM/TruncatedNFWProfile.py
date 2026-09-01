@@ -8,7 +8,7 @@ from NFWProfile import NFWProfile
 
 
 class TruncatedNFWProfile(object):
-    def __init__(self, _M_vir, _con, _r200=None, _log_rho_s=None, _r_d=None):
+    def __init__(self, _M_vir, _con, _r200=None, _r_s=None, _log_rho_s=None, _r_d=None, strict_consistency=False):
         """
         Truncated NFW profile.
 
@@ -43,62 +43,91 @@ class TruncatedNFWProfile(object):
 
             rho_crit = cfg.rho_c  # [M_sun / kpc^3]
 
-            self.r200 = (
-                                3.0 * self.M_vir_input
-                                / (4.0 * math.pi * 200.0 * rho_crit)
-                        ) ** (1.0 / 3.0)
-
+            self.r200 = (3.0 * self.M_vir_input / (4.0 * math.pi * 200.0 * rho_crit)) ** (1.0 / 3.0)
             self.r_vir = self.r200
             self.r_s = self.r200 / self.con
-
-            self.rho_s = (
-                    self.M_vir_input
-                    / (4.0 * math.pi * self.r_s ** 3 * self.f(self.con))
-            )
+            self.rho_s = (self.M_vir_input / (4.0 * math.pi * self.r_s ** 3 * self.f(self.con)))
 
             self.initialization_mode = "standard"
 
         # ------------------------------------------------------------------
+        # Mode 2: fully explicit benchmark parameters
+        # ------------------------------------------------------------------
+        elif (
+            _r200 is not None
+            and _r_s is not None
+            and _log_rho_s is not None
+        ):
+
+            # Keep every supplied benchmark value exactly as given
+            self.r200 = float(_r200)
+            self.r_vir = self.r200
+            self.r_s = float(_r_s)
+            self.rho_s = 10.0 ** float(_log_rho_s)
+
+            self.initialization_mode = "fully_explicit"
+
+        else:
+            raise ValueError(
+                "Use either:\n"
+                "  1. only _M_vir and _con for a self-consistent halo, or\n"
+                "  2. _M_vir, _con, _r200, _r_s and _log_rho_s "
+                "for a fully explicit benchmark halo."
+            )
+
+        # ------------------------------------------------------------------
         # Case 2: explicit initialization from r200 and log10(rho_s)
         # ------------------------------------------------------------------
-        elif _r200 is not None and _log_rho_s is not None:
-
-            self.r200 = _r200  # [kpc]
-            self.r_vir = self.r200  # [kpc]
-
-            self.r_s = self.r200 / self.con
-            self.rho_s = 10.0 ** _log_rho_s  # [M_sun / kpc^3]
-
-            self.initialization_mode = "explicit"
+        # elif _r200 is not None and _log_rho_s is not None:
+        #
+        #     self.r200 = _r200  # [kpc]
+        #     self.r_vir = self.r200  # [kpc]
+        #
+        #     self.r_s = self.r200 / self.con
+        #     self.rho_s = 10.0 ** _log_rho_s  # [M_sun / kpc^3]
+        #
+        #     self.initialization_mode = "explicit"
 
         # ------------------------------------------------------------------
         # Bad mixed input
         # ------------------------------------------------------------------
-        else:
-            raise ValueError(
-                "You must either provide both _r200 and _log_rho_s, "
-                "or provide neither of them."
-            )
+        # else:
+        #     raise ValueError(
+        #         "You must either provide both _r200 and _log_rho_s, "
+        #         "or provide neither of them."
+        #     )
 
         # ------------------------------------------------------------------
-        # Actual NFW mass inside r200 implied by rho_s and r_s
+        # Diagnostics: mass and concentration implied by the actual profile
         # ------------------------------------------------------------------
         self.M200_inner = self.Mass_NFW_inner(self.r200)
 
-        # Optional alias: use this only if you want M_vir to mean
-        # "actual profile mass inside r200"
-        self.M_vir = self.M200_inner
+        # Preserve the nominal mass supplied by the user
+        self.M_vir = self.M_vir_input
 
-        # Relative mismatch between supplied mass and profile-implied mass
+        # Relative difference between nominal mass and mass implied by
+        # rho_s, r_s and r200
         self.mass_mismatch = (self.M200_inner - self.M_vir_input) / self.M_vir_input
+
+        # The actual dimensionless radius corresponding to r200
+        self.x200 = self.r200 / self.r_s
+
+        # Concentration implied by r200 and r_s
+        self.con_implied = self.x200
+
+        # Difference between supplied concentration and r200 / r_s
+        self.con_mismatch = (self.con_implied - self.con) / self.con
 
         # ------------------------------------------------------------------
         # Local NFW density at r200
-        # Avoid name rho_200 if you want to avoid confusion with 200*rho_crit.
         # ------------------------------------------------------------------
-        self.rho_r200 = self.rho_s / (self.con * (1.0 + self.con) ** 2)
+        # Use x200 = r200 / r_s rather than the supplied concentration.
+        # This remains correct even in fully explicit mode, where c and
+        # r200 / r_s may differ because all tabulated values are enforced.
+        self.rho_r200 = self.rho_s / (self.x200 * (1.0 + self.x200) ** 2)
+        # self.rho_r200 = self.rho_s / (self.con * (1.0 + self.con) ** 2)
 
-        # For compatibility with your earlier notation
+        # Compatibility alias
         self.rho_200 = self.rho_r200
 
         # ------------------------------------------------------------------
@@ -112,88 +141,74 @@ class TruncatedNFWProfile(object):
         # ------------------------------------------------------------------
         # Exponential decay index from logarithmic slope continuity at r200
         # ------------------------------------------------------------------
-        self.eps_d = (
-                self.r200 / self.r_d
-                - (1.0 + 3.0 * self.con) / (1.0 + self.con)
-        )
+        self.eps_d = (self.r200 / self.r_d - (1.0 + 3.0 * self.con) / (1.0 + self.con))
 
         # ------------------------------------------------------------------
         # Characteristic NFW radius and velocity
         # ------------------------------------------------------------------
-        self.rmax = self.r_s * 2.163
+        self.rmax = self.r_s * 2.16258
         self.Vmax = self.Vcirc(self.rmax)
 
         # ------------------------------------------------------------------
-        # Warn if explicit parameters are inconsistent
+        # Consistency diagnostics
         # ------------------------------------------------------------------
-        if abs(self.mass_mismatch) > 1e-2:
-            print(
-                "Warning: supplied M_vir and profile parameters are not fully consistent."
+        mass_tolerance = 1e-2
+        concentration_tolerance = 1e-2
+
+        inconsistent = (
+            abs(self.mass_mismatch) > mass_tolerance
+            or abs(self.con_mismatch) > concentration_tolerance
+        )
+
+        if inconsistent:
+            message = (
+                "\nWarning: supplied halo parameters are not fully "
+                "NFW-consistent.\n"
+                f"Initialization mode    = {self.initialization_mode}\n"
+                f"M200 input             = {self.M_vir_input:.8e} M_sun\n"
+                f"M200 from profile      = {self.M200_inner:.8e} M_sun\n"
+                f"mass mismatch          = {self.mass_mismatch:+.4e}\n"
+                f"c input                = {self.con:.8f}\n"
+                f"r200 / r_s             = {self.con_implied:.8f}\n"
+                f"concentration mismatch = {self.con_mismatch:+.4e}\n"
+                f"r200                    = {self.r200:.8f} kpc\n"
+                f"r_s                     = {self.r_s:.8f} kpc\n"
+                f"log10(rho_s)            = {math.log10(self.rho_s):.8f}"
             )
-            print(f"Initialization mode = {self.initialization_mode}")
-            print(f"M_vir input         = {self.M_vir_input:.6e} M_sun")
-            print(f"M_NFW(<r200)        = {self.M200_inner:.6e} M_sun")
-            print(f"relative mismatch   = {self.mass_mismatch:.3e}")
 
+            if strict_consistency:
+                raise ValueError(message)
 
-    # def __init__(self, _M_vir, _con, _r_d=None):
-    #     """
-    #     Gilman/Tran-style truncated NFW profile.
-    #
-    #     Inside r200:
-    #         rho(r) = rho_s / [x (1+x)^2]
-    #         x = r / r_s
-    #
-    #     Outside r200:
-    #         rho(r) = rho(r200) * (r/r200)^eps_d * exp[-(r-r200)/r_d]
-    #
-    #     where:
-    #         r200 = c * r_s
-    #         r_d  = r200 by default
-    #         eps_d = r200/r_d - (1 + 3c)/(1 + c)
-    #
-    #     Arguments:
-    #         _M_vir : M200 halo mass [M_sun]
-    #         _con   : concentration c = r200 / r_s
-    #         _r_d   : exponential decay scale [kpc], optional.
-    #                  If None, use r_d = r200.
-    #     """
-    #
-    #     # First initialize ordinary NFW structure
-    #     super().__init__(_M_vir, _con)
-    #
-    #     # input attributes
-    #     self.M_vir = _M_vir  # [M_sun]
-    #     self.M200_inner = self.M_vir
-    #     self.con = _con  # [dimensionless]
-    #
-    #     # Virial radius
-    #     rho_cry = cfg.rho_c  # critical density # [M_solar / kpc^3]
-    #     self.r_vir = ((3 * self.M_vir)/(4 * math.pi * 200 * rho_cry))**(1/3)
-    #     self.r200 = self.r_vir
-    #
-    #     # basic variables: r_s
-    #     self.r_s = self.r_vir/self.con
-    #
-    #     # basic variables: rho_s
-    #     coeff = 200 / 3 * self.con ** 3 / self.f(self.con)
-    #     self.rho_s = (coeff * rho_cry)  # [M_sun / kpc^3]
-    #     self.rho_200 = self.rho_s/(self.con * (1.0 + self.con) ** 2)
-    #
-    #     # Decay scale
-    #     if _r_d is None:
-    #         self.r_d = self.r200
-    #     else:
-    #         self.r_d = _r_d
-    #
-    #     # Exponential decay index from slope continuity
-    #     self.eps_d = self.r200 / self.r_d - (1.0 + 3.0 * self.con) / (1.0 + self.con)
-    #
-    #     # Update rmax and Vmax using the total profile.
-    #     # For NFW it remains close to 2.163 r_s, and this is inside r200
-    #     # for usual c > 2.163.
-    #     self.rmax = self.r_s * 2.163
-    #     self.Vmax = self.Vcirc(self.rmax)
+            print(message)
+
+    # ------------------------------------------------------------------
+    # tau linear
+    # ------------------------------------------------------------------
+    def tau(self, beta, sigma_eff):
+        r_s = self.r_s
+        rho_s = self.rho_s
+        sigma_m_SI = sigma_eff * 1e-4 * 1e3  # Convert from [cm^2/g] to [m^2/kg]
+        sigma_m_SU = sigma_m_SI * cfg.kpc_SI ** -2 * cfg.M_solar_SI  # Convert to [kpc^2 * M_sun^-1]
+        G_SU = cfg.const_G_starUnits
+        time_c = (150 / beta) * (1 / (r_s * rho_s) * 1 / sigma_m_SU) * (4 * np.pi * G_SU * rho_s) ** (-1 / 2)
+        # print("====================================================================================")
+        # print("==================== TAU IN CLASS ==================================================")
+        # print("con:", self.con)
+        # print("sigma_eff:", sigma_eff)
+        # print("beta:", beta)
+        # print("r_s:", r_s)
+        # print("log_rho_s:", np.log10(rho_s))
+        # print("sigma_m_SU:", sigma_m_SU)
+        # print("G_SU:", G_SU)
+        # print("time_c:", time_c)
+        return time_c
+
+        # sigma_m_SI = sigma_eff * 1e-4 * 1e3  # Convert from [cm^2/g] to [m^2/kg]
+        # sigma_m_SU = sigma_m_SI * cfg.kpc_SI ** -2 * cfg.M_solar_SI  # Convert to [kpc^2 * M_sun^-1]
+        # G_SU = cfg.const_G_starUnits
+        # nu_star = np.sqrt(G_SU * self.rho_s * self.r_s**2)
+        # tau = (150 / beta) * (1 / sigma_m_SU) * (1 / self.rho_s) * (1 / (4 * np.pi * nu_star**2))**(1/2)  # [Gyr]
+        # return tau
 
 
     # ------------------------------------------------------------------
